@@ -1,16 +1,21 @@
 ### README
 
 * Setting up and running a web-app on AWS cloud and handling scaling/management.
-*setup.sh
-    Creating the docker image
+
+ * setup.sh
+  
+   Creating the docker image
     Remove swarm if already a part of
     Create docker swarm
     When trying to scale horizontally, simply run 'swarm_token.sh' in all the machines.
     and they will become a part of the swarm as well, and container will run on them as well.
     Remove any existing service for cnid_infra
     Created service for cnid_infra.
+    
+    * Dockerfile : A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession
 
 * hello-flask.py
+
       Imported the python flask for web application development
       Used app.route("/") which is a python decorator that Flask provides to assign URLs in our app to function easily. The decorator is communicating our @app that whenever a       user   visits our app domain at the given .route(), execute the Hello world() function.
   
