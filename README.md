@@ -17,20 +17,20 @@
   
 * cloud_formation.json
 
-        Format version : Format version defines the capability of a template
-        
-        Description: In this section we defines Parameters, InstanceType, Description, SSHLocation etc.   
-        
-        Metadata : Metadata used in the template to provide the information using JSON objects.
-        
-        Parameters : Templates can be customized using parameters. Each time we create or update the stack, parameters help you give your template custom values at runtime.
-        
-        Mappings : It enables to map keys to a corresponding named value that you specify in a conditional parameter. Also you can retrieve values in a map by using                   "Fn::FindInMap" intrinsic function.
-        
-        Conditions : It defines whether certain resources are created or when resource properties are assigned to a value during stack creation or updating. Conditions can be         used when you want to reuse the templates by creating  resources in different contexts. We can use intrinsic functions to define conditions.
-        
-        In a template , during stack creation, all the conditions in your template are evaluated. Any resources that are associated with a true condition are created and the         invalid conditions are ignored automatically.
-        
-        Resources : Using this section, you can declare the AWS resource that you want to create and specify in the stack, such as Image id, instance type, security groups,           keyname.
+    Format version : Format version defines the capability of a template
+
+    Description: In this section we defines Parameters, InstanceType, Description, SSHLocation etc.   
+
+    Metadata : Metadata used in the template to provide the information using JSON objects.
+
+    Parameters : Templates can be customized using parameters. Each time we create or update the stack, parameters help you give your template custom values at runtime.
+
+    Mappings : It enables to map keys to a corresponding named value that you specify in a conditional parameter. Also you can retrieve values in a map by using                   "Fn::FindInMap" intrinsic function.
+
+    Conditions : It defines whether certain resources are created or when resource properties are assigned to a value during stack creation or updating. Conditions can be         used when you want to reuse the templates by creating  resources in different contexts. We can use intrinsic functions to define conditions.
+
+    In a template , during stack creation, all the conditions in your template are evaluated. Any resources that are associated with a true condition are created and the         invalid conditions are ignored automatically.
+
+    Resources : Using this section, you can declare the AWS resource that you want to create and specify in the stack, such as Image id, instance type, security groups,           keyname.
 
   
